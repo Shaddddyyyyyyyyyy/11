@@ -293,10 +293,13 @@ footer{
 </head>
 
 <body>
-    <audio id="bgMusic" loop>
-    <source src="blue.mp3" type="audio/mpeg">
-    Your browser does not support audio playback.
+<audio id="bgMusic" loop>
+    <source src="./blue.mp3" type="audio/mpeg">
 </audio>
+
+<button onclick="document.getElementById('bgMusic').play()">
+    ▶ Play Music
+</button>
 
 <div class="bg"></div>
 <div class="hearts" id="hearts"></div>
